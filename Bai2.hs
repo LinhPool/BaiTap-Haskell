@@ -13,6 +13,8 @@ f3 x y = [x == True] ++ [y]
 f4 :: String -> String -> String -> Bool
 f4 x y z = x == (y ++ z)
 
+f5 :: Int ->
+
 -- Question 2
 -- Why should we define type signatures of functions? How can they help you? How can they help others?
 
@@ -31,6 +33,6 @@ f4 x y z = x == (y ++ z)
 -- Question 5
 -- Can you also define in Haskell list of lists? Did we showed any example of that? How would you access the inner
 -- most elements?
-list :: [Float]
-  list = [9.4,33.2,96.2,11.2,23.25]
-  ketqua = list !! 1 
+--list :: [Float]
+ -- list = [9.4,33.2,96.2,11.2,23.25]
+--  ketqua = list !! 1 
